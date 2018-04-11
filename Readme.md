@@ -10,6 +10,8 @@ This widget uses the Konva library for image overlay and positioning: [https://k
 
 Before getting started extending this widget please review the Esri documentation at: [https://github.com/Esri/generator-esri-appbuilder-js](https://github.com/Esri/generator-esri-appbuilder-js)
 
+To download the widget to import directly into Web AppBuilder for ArcGIS Developer edition, visit the download page [here].(https://dakotacounty.maps.arcgis.com/home/item.html?id=68f3890767a843c0940eb7e9840c5244)
+
 Widget developed by: [North Point Geographic Solutions](http://www.northpointgis.com/)
 
 Version 1.0.0 - 3/29/2018
