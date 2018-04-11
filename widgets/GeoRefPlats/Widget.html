@@ -1,0 +1,32 @@
+<div>
+  <div class="browse-or-drop">
+    <div class="drop-container" data-dojo-attach-point="dropContainer">
+      <div class="drop-area" data-dojo-attach-point="dropArea">
+        <div class="supported-file-types" data-dojo-attach-point="supportedFileTypes"></div>
+        <div class="or">${i18n.addFromFile.dropOrBrowse}</div>
+        <form class="file-form" enctype="multipart/form-data" method="post" data-dojo-attach-point="fileForm">
+          <label for="${id}_file" class="jimu-btn" data-dojo-attach-point="uploadLabel">${i18n.addFromFile.browse}</label>
+          <input id="${id}_file" name="file" type="file" style="display:none" data-dojo-attach-point="fileNode" />
+        </form>
+        <a href="#" class="drop-area-hint" data-dojo-attach-point="hintButton">
+          <i class="esri-icon-question"></i>
+        </a>
+        <span class="upload-arrow"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="finish-georeferencing" data-dojo-attach-point="finishButtonDiv">
+    <a class="jimu-btn" href="javascript:void(0)" data-dojo-attach-point="finishButton" data-dojo-attach-event="onClick: finishClicked">${i18n.finishGeoRef}
+    </a>
+  </div>
+  <div class="finish-georeferencing" data-dojo-attach-point="clearButtonDiv">
+    <a class="jimu-btn" href="javascript:void(0)" data-dojo-attach-point="clearButton" data-dojo-attach-event="onClick: clearClicked">${i18n.clearGeoRef}
+    </a>
+  </div>
+  <div class="help-text">${i18n.helpText}</div>
+  <div class="help-text">
+    <img id='movePicURL'>${i18n.moveExplainText}</div>
+  <div class="help-text "><img id='resizeUrl'>${i18n.resizeExplainText}</div>
+  <div class="help-text ">${i18n.OpacitySlider}</div>
+</div>

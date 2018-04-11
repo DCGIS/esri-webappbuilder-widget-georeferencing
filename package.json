@@ -1,0 +1,35 @@
+{
+  "name": "georefplats",
+  "version": "1.0.0",
+  "description": "MetroGIS Georeference Plats Widget for the Esri Web AppBuilder",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.northpointgis.com/scm/mae/georefplats.git"
+  },
+  "keywords": [
+    "metrogis",
+    "georeference",
+    "plats"
+  ],
+  "author": "North Point Geographic Solutions",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0",
+    "babel-preset-es2015-without-strict": "0.0.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-sync": "^0.7.0"
+  }
+}

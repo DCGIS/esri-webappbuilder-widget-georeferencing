@@ -1,0 +1,25 @@
+{
+  "name": "GeoRefPlats",
+  "label": "Georeference Plats",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.2",
+  "wabVersion": "2.3",
+  "author": "North Point Geographic Solutions",
+  "description": "Web AppBuilder widget for uploading plat drawings in JPG format and georeferncing them temporarityly ion the map",
+  "copyright": "",
+  "license": "ISC",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true,
+    "IsController": false
+  }
+}
